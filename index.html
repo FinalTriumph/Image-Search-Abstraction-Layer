@@ -2,10 +2,37 @@
     body {
         margin: 30px;
     }
-    h1 {
+    h2 {
+        font-size: 24px;
+    }
+    p1 {
         font-size: 20px;
     }
+    p2 {
+        font-size: 16px;
+        background-color: #eeeeee;
+    }
+    p3 {
+        font-size: 16px;
+        background-color: #e8f5e9;
+    }
+    p4 {
+        font-size: 16px;
+    }
 </style>
+
 <body>
-    <h1>Image Search Abstraction Layer</h1>
+    <h2>FreeCodeCamp API Project</h2>
+    <h2>Image Search Abstraction Layer</h2>
+      <p1>Example usage:</p1>
+       <br><br>
+       <p2>https://isal.herokuapp.com/<p3>cats</p3></p2><p4> outputs search results for keyword "cats" in this format:</p4>
+       <br><br>
+       <p3>{"url":"___","title":"___","posted_by":"___","related_images":"___"}</p3>
+       <br><br>
+       <p2>https://isal.herokuapp.com/<p3>cats?offset=2</p3></p2><p4> navigates to second page of results.</p4>
+       <br><br>
+       <p2>https://isal.herokuapp.com/<p3>history/latest</p3></p2><p4> outputs most recently submitted searches in this format:</p4>
+       <br><br>
+       <p3>{"term":"___","when":"___"}</p3>
 </body>
